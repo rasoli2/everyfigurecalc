@@ -34,6 +34,7 @@ export function SiteFooter() {
                 { to: "/contact", label: "Contact" },
                 { to: "/privacy", label: "Privacy" },
                 { to: "/terms", label: "Terms" },
+                { to: "/cookies", label: "Cookie Policy" },
               ].map((item) => (
                 <li key={item.to}>
                   <Link
