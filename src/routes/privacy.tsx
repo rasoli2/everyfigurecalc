@@ -165,10 +165,10 @@ function PrivacyPage() {
         <p>
           To submit a privacy request, contact us at{" "}
           <a
-            href="mailto:hello@everyfigurecalc.com"
+            href="mailto:noxfbusiness@gmail.com"
             className="font-medium text-foreground underline underline-offset-2 hover:text-primary"
           >
-            hello@everyfigurecalc.com
+            noxfbusiness@gmail.com
           </a>
           . We may need to verify your request before responding.
         </p>
@@ -202,10 +202,10 @@ function PrivacyPage() {
         <p>
           Privacy questions or requests:{" "}
           <a
-            href="mailto:hello@everyfigurecalc.com"
+            href="mailto:noxfbusiness@gmail.com"
             className="font-medium text-foreground underline underline-offset-2 hover:text-primary"
           >
-            hello@everyfigurecalc.com
+            noxfbusiness@gmail.com
           </a>
           .
         </p>

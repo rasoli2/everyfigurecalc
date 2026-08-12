@@ -246,10 +246,10 @@ function TermsPage() {
         <p>
           Questions about these Terms:{" "}
           <a
-            href="mailto:hello@everyfigurecalc.com"
+            href="mailto:noxfbusiness@gmail.com"
             className="font-medium text-foreground underline underline-offset-2 hover:text-primary"
           >
-            hello@everyfigurecalc.com
+            noxfbusiness@gmail.com
           </a>
           .
         </p>

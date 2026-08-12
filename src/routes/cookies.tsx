@@ -114,10 +114,10 @@ function CookiePolicyPage() {
         <p>
           Questions about this Cookie Policy:{" "}
           <a
-            href="mailto:hello@everyfigurecalc.com"
+            href="mailto:noxfbusiness@gmail.com"
             className="font-medium text-foreground underline underline-offset-2 hover:text-primary"
           >
-            hello@everyfigurecalc.com
+            noxfbusiness@gmail.com
           </a>
           .
         </p>

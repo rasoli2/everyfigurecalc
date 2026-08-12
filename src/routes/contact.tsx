@@ -25,7 +25,7 @@ function ContactPage() {
     <div className="mx-auto w-full max-w-3xl px-4 py-6 sm:px-6">
       <h1 className="text-2xl font-bold tracking-tight text-foreground sm:text-3xl">Contact</h1>
       <div className="mt-4 space-y-4 text-sm text-muted-foreground">
-        <p>Email us at hello@everyfigurecalc.com.</p>
+        <p>Email us at noxfbusiness@gmail.com.</p>
         <p>
           Useful things to include: the calculator you used, the numbers you entered and the result you expected.
           That makes it much faster to check.
