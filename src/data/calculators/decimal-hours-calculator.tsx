@@ -129,7 +129,7 @@ export const calculator: CalculatorDef = {
     "Convert hours and minutes to decimal hours for payroll, or turn decimal hours back into hours and minutes. Includes quarter-hour rounding.",
   keywords: ["minutes to decimal", "payroll conversion", "0.25 hours", "quarter hour rounding", "hours to decimal"],
   intro:
-    "Payroll systems want 7.75, timesheets say 7 hours 45 minutes.",
+    "Convert hours and minutes to decimal hours for payroll and timesheets, or turn a decimal back into hours and minutes.",
   notes: [
     "Common conversions: 15 minutes is 0.25, 20 minutes is 0.33, 40 minutes is 0.67, 50 minutes is 0.83.",
     "Two decimal places lose at most 18 seconds per entry, which is why payroll uses them as standard.",

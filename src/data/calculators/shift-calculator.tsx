@@ -137,7 +137,7 @@ export const calculator: CalculatorDef = {
     "Enter a shift start time, the paid hours and the unpaid break to find the exact end time, total time on site and paid hours in decimal form.",
   keywords: ["shift end time", "when does my shift end", "night shift", "break schedule", "roster planning"],
   intro:
-    "Rosters usually state a start time and a shift length, not an end time.",
+    "Enter a shift start time, how many paid hours you work, and any unpaid break to find your shift end time — including total time on site and paid hours in decimal form.",
   notes: [
     "A paid break should be left out of the break field — it is already inside your paid hours.",
     "Split shifts are best entered as two separate shifts, since the gap between them is not a break.",

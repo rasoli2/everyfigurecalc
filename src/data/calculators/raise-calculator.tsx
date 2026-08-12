@@ -141,7 +141,7 @@ export const calculator: CalculatorDef = {
     "Calculate your new salary or hourly rate after a raise. Works from a percentage or a dollar amount and shows the increase both ways.",
   keywords: ["pay raise", "salary increase", "cost of living adjustment", "new salary", "percent raise"],
   intro:
-    "A raise is quoted as a percentage sometimes and as a dollar figure other times.",
+    "Enter your current salary or hourly pay and a percentage raise or dollar amount to see your new pay, the increase both ways, and the updated salary or hourly rate.",
   notes: [
     "These are gross figures, before any deductions.",
     "The 2,080-hour year assumes 40 hours a week for 52 weeks with no unpaid time off.",

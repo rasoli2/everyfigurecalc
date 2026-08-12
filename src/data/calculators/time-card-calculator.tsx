@@ -270,12 +270,12 @@ export const calculator: CalculatorDef = {
   category: "work-pay",
   featured: true,
   blurb: "Add up a full week of clock-in and clock-out times.",
-  seoTitle: "Time Card Calculator - Weekly Hours and Pay Totals",
+  seoTitle: "Time Card Calculator With Lunch Break - Weekly Hours",
   seoDescription:
     "Free weekly time card calculator. Enter start, end and break times for each day to get daily totals, weekly hours in decimal form and gross pay.",
   keywords: ["timesheet calculator", "weekly hours", "time sheet", "payroll week", "daily totals"],
   intro:
-    "Fill in the days you worked and leave the rest blank.",
+    "Add clock-in and clock-out times for each day of the week, subtract unpaid lunch or breaks, and see your total work hours — with optional gross pay if you enter a rate.",
   notes: [
     "That day's unpaid break minutes are subtracted before it is added to the weekly total.",
     "Gross pay uses the weekly minute total, so no cents are lost to daily rounding.",
