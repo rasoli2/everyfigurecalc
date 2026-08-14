@@ -129,6 +129,31 @@ function TimeCalculator() {
           />
         ) : null}
       </ResultSlot>
+
+      <section className="mt-8" aria-labelledby="time-examples">
+        <h2
+          id="time-examples"
+          className="border-b-2 border-foreground pb-1.5 text-sm font-extrabold uppercase tracking-[0.12em] text-foreground"
+        >
+          Common Time Calculation Examples
+        </h2>
+        <ul className="mt-3 space-y-2 text-sm text-foreground/80">
+          <li>3:00 PM + 8 hours = 11:00 PM</li>
+          <li>9:00 AM + 90 minutes = 10:30 AM</li>
+          <li>11:30 PM + 2 hours = 1:30 AM the next day</li>
+          <li>2:15 PM - 45 minutes = 1:30 PM</li>
+        </ul>
+        <div className="mt-4 space-y-3 text-sm text-foreground/80">
+          <p>
+            Enter any starting time, then add or subtract hours and minutes to find the resulting clock time. You
+            can enter extra minutes on their own — for example, 90 minutes works the same as 1 hour and 30 minutes.
+          </p>
+          <p>
+            When the answer crosses midnight, the result moves to the next or previous day automatically. The
+            calculator supports 12-hour AM/PM times by default and includes a 24-hour option if you prefer.
+          </p>
+        </div>
+      </section>
     </>
   );
 }
