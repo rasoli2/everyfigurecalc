@@ -1,7 +1,7 @@
 import { Link, createFileRoute } from "@tanstack/react-router";
 import { featuredInCategory } from "@/data/calculators";
 import { categories } from "@/data/categories";
-import { SITE_DESCRIPTION, SITE_NAME, absoluteUrl } from "@/data/site";
+import { SITE_DESCRIPTION, SITE_NAME, PRODUCTION_SITE_URL, absoluteUrl } from "@/data/site";
 
 const title = `${SITE_NAME} — Free Time, Pay and Everyday Calculators`;
 
@@ -24,6 +24,8 @@ export const Route = createFileRoute("/")({
           "@context": "https://schema.org",
           "@type": "WebSite",
           name: SITE_NAME,
+          alternateName: ["EveryFigureCalc", "everyfigurecalc.com"],
+          url: `${PRODUCTION_SITE_URL}/`,
           description: SITE_DESCRIPTION,
         }),
       },
