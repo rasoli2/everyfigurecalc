@@ -3,6 +3,7 @@ import type { CalculatorDef, CategorySlug } from "../site";
 import { calculator as timeCalculator } from "./time-calculator";
 import { calculator as timeDurationCalculator } from "./time-duration-calculator";
 import { calculator as dateCalculator } from "./date-calculator";
+import { calculator as weeksCalculator } from "./weeks-calculator";
 import { calculator as daysBetweenDatesCalculator } from "./days-between-dates-calculator";
 import { calculator as ageCalculator } from "./age-calculator";
 import { calculator as hoursWorkedCalculator } from "./hours-worked-calculator";
@@ -29,6 +30,7 @@ export const calculators: CalculatorDef[] = [
   timeCalculator,
   timeDurationCalculator,
   dateCalculator,
+  weeksCalculator,
   daysBetweenDatesCalculator,
   ageCalculator,
   hoursWorkedCalculator,
